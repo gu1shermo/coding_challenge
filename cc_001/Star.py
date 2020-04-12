@@ -1,5 +1,6 @@
 class Star:
     def __init__(self):
+        print('init')
         self.x = random(-width,width)
         self.y = random(-height,height)
         self.z = random(width)
